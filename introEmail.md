@@ -1,5 +1,5 @@
 
-Dear Meeting Particpates, 
+Dear Meeting Participates, 
 
 We hope that you have recieved an email detailing travel arrangements, if you have not recieved this email, please contact << insert >>.
 
