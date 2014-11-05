@@ -14,7 +14,6 @@ Please do not hesitate to contact us if you have any questions about the event. 
 
 Sincerely, 
 Ciera Martinez
+
 On behalf of the organizing committee: Karen Cranston, Hilmar Lapp, François Michonneau, Matt Pennell, Tracy Teal
 
-Ciera Martinez
-On behalf of the organizing committee: Karen Cranston, Hilmar Lapp, François Michonneau, Matt Pennell, Tracy Teal
