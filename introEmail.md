@@ -2,7 +2,7 @@ Dear Meeting Participates,
 
 We are extremely excited about the excellent list of attendees who have committed to the Reproducible Science Hackathon for Workflow and Curriculum Development. We have a diverse group with varying expertise, all united by a passion for the practice and education of reproducible science. 
 
-We are using a [Github repository](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014) as a central location for all information surrounding the hackathon.  Please sign up for a free Github account if you do not already have one. 
+We are using a [Github repository](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014) as a central location for all information surrounding the hackathon and will use the wiki and issue tracker as the main mode of communication.  Please sign up for a free Github account if you do not already have one. 
 
 Prior to the meeting, we request your participation on a few items.  
 
