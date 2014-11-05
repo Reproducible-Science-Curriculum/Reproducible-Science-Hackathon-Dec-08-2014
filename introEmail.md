@@ -1,4 +1,4 @@
-Dear Meeting Participates, 
+Dear Meeting Participants, 
 
 We are extremely excited about the excellent list of attendees who have committed to the Reproducible Science Hackathon for Workflow and Curriculum Development. We have a diverse group with varying expertise, all united by a passion for the practice and education of reproducible science. 
 
