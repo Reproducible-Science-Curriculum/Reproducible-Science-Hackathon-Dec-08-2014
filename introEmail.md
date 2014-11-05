@@ -4,7 +4,7 @@ We are extremely excited about the excellent list of attendees who have committe
 
 We are using a [Github repository](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014) as a central location for all information surrounding the hackathon and will use the wiki and issue tracker as the main mode of communication.  Please sign up for a free Github account if you do not already have one. 
 
-Prior to the meeting, we request your participation on a few items.  
+Prior to the meeting, and to help with organization, we request your participation on a few items before November 23rd.
 
 1. In order for us all to learn about each other, please introduce yourself by adding your name, Github ID, and a brief introduction of your background on the [participant list](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014/wiki/2.-Participants).
 2. Start an [Issue](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014/issues) on possible topics to be discussed as a group during the hackathon. 
