@@ -14,5 +14,4 @@ This is the first of three workshops that will bring together a community of ind
 2. Start an [Issue](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014/issues) on possible topics to be discussed as a group during the hackathon. 
 3. Add yourself or suggest a topic for the [lightning talk sessions](https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014/wiki/4.-Lightning-Talks). 
 
-
-
+**Hashtag**: [#RRHack](https://twitter.com/search?f=realtime&q=%23rrhack)
