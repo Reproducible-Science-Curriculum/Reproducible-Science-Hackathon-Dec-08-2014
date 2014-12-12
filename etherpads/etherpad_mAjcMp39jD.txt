@@ -1,0 +1,78 @@
+## Documentation
+- README
+- Literate programming
+- Knitr + text
+    - dynamic documentation. discussion on knitr as not suitable for real datasets, setting people up to fail
+    - roxygen
+- non-code documentation: wikis
+- "Anything is better than nothing"
+- metadata:
+    - dublincore - authorship, license
+    - column info:  units, codes
+    - sources of external data / bib
+    - what dryad would ask for on submission (taxonomic names, geo regions)
+- logfiles
+    - determine what's worth keeping. signal v noise
+- "aggressive laziness"
+    - 
+
+## Automation
+- output-input-sync
+- Makefiles (worth mention, in "best")
+- impose our vision: code->functions->knitr->make (concept) & make clean! -> Travis
+- programming practices
+    - abstraction, small functions
+- puppeteering: single point of entry
+- Travis CI
+- Reading from public databases (rOpenSci)
+- good: 30 lines of data cleanup, etc.
+- best:
+```r
+clean_data()
+process_results()
+plot()
+```
+
+## Audience
+- Have run stuff in R
+
+## Barriers
+- existing experience - "heres what to do with 1000 lines of code" to someone who has 0
+- long tangled scripts, lots of copy/pasting, practice of holding entire analysis in head (no functions)
+- 
+
+Out of scope:
+- testing
+- when does metadata become data
+
+-------------------------
+
+Motto: "Anything is better than nothing"
+
+Motivation: "Aggressive laziness"
+
+Categories
+
+# 1. Data/Project documentation
+  - metadata
+  - code/data dependencies
+  - README
+
+# 2. Process documentation
+    - video, README
+    - commenting
+    - Roxygen
+    - Dependencies
+    - signposting: packaging
+
+# 3. knitr
+  - "as comments"
+  - "as make"
+
+# 4. Automation
+    - (programmatic data access)
+    - "make" concept, "make clean"
+    - signposting: travis
+
+# 5. Scaling
+

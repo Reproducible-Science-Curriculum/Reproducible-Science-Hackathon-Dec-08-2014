@@ -1,0 +1,76 @@
+Group 2 - Breakout Day 2 - 2014-12-09 #rrhack
+
+MindMap on coggle: https://coggle.it/diagram/548607a4d215ff3b06948849/0353189d659223de746d754b8d10bca50186a23b2c5bc183a7e195ea4efa2944
+
+## Session Order:
+
+1. Reasons for doing this
+    - Exercise of reproducing something short, divide into groups as icebreaker
+    - Similarities to rotation-based learning
+    - Start with hands-on right away
+    - Tools: Excel, R, Python. 
+        - For each one, give dataset+output? (Dox + no-dox) * (excel + R + python)
+        - Leaving out SAS, SPSS?
+    - Complicated by assuming/prescribing a language?
+    - What about leaving it tool-agnostic? Start with papers, provide papers with/without data. 
+    - Discipline targets?: 
+         - ideally all, but likely initially biology and related disciplines
+    -  Start with concrete examples - data files without labels, code without version control? Still interactive but not completely tool-centric
+    - Don't intimidate/lose people too quickly by starting full-speed in a programming language
+    - Reframe to motivate for self-benefits. Checklist/rubric of 10 examples. 5 minute survey. How many are doing 10? 9?..., Anonymous survey or pre-workshop
+    - Examples of Good/better/best stories
+    - Exercise to perform archaeology on data in 3 sets of folders - then questions like "which one is the raw data?"
+    - Or 3 versions of the same data in good/better/best states, and see what stories people derive.
+    - this exercise would be the icebreaker, mostly surveying the organization/data/naming and not diving into specific languages
+    
+2. Organization
+    - Exercise? Given a set of files, organize them. extract from old proprietary files?
+    - Introduce properly modeled ideas early on, less guessing about what things should look like
+    - Easier to start wtih good practices (READMEs, directories, slow) than fixing a mess
+    - Provide templates/structures as part of the course. See Reproducible Research with R & RStudio http://christophergandrud.github.io/RepResR-RStudio/
+    - Activity: categorize examples as good/better/best and ask why?
+    - fail-less learning: teach best practices
+    - Bring back rubric/checkboxes at this step. What parts exist already?
+    - Require pre-req of scripting? we should aim to help, even with excel workflows
+    - Don't make people feel bad about tool choice, but do encourage scripting, as a follow-on to organization
+    
+3a. Narration
+    - Start non-exec documentation
+    - Contrast README narrating Excel point/click with writing down in executable format -> automation. Learning up front saves time later.
+    - What did you actually do in excel (move col A, Del Col B, Sort by F, etc.) shows tedium
+    - basic scripting example
+    - plaintext
+    - Commenting, annotating/documenting code.
+    - Literate programming (RMD demo)
+    - Show concrete examples of scripting (e.g. knitr) but make clear it's conceptual.
+    - Protip: Use RStudio to make RMD, keep away from markdown+r errors
+    - Knitr can run other code, but runs under R.
+    - Other languages: IPython Notebooks, emacs org-mode
+    - Log files (bash history, R console). How to get into the right place from the start.
+    - Sumatra - capture exploratory analyses without scripting everything ahead of time
+
+3b. Automation
+
+4. Publishing Data & Code
+    - Licensing - best practice for licensing "science things"
+    - Discuss with all parties involved at start. license, timeframes, actions
+    - Funder mandates, institutional policies or requirements for data sharing
+    - Revisit formats/textfiles. bridge to others reproducing your work
+    - Promote GitHub, other useful places to share or archive, get a persistent URL or DOI
+
+Gaps:
+- rubric/checklist
+- non-executable documentation
+- organizational structure templates - file structures of research project. There are some resources, but we don't have one. Start a minimal best practices in R, python
+- 1-page info sheet for licensing guidance
+- more-experienced users not addressed, split into two tracks? SWC has done but this could be overwhelming for a new course
+- After assessing current level, identify next steps for most leverage
+- Addressing collaboration
+- Versioning without git, and uniquely identifying code and datasets.
+- Assessment, send out checklist after 6 months.
+
+Misc:
+ 
+Random seed - brief overview and quick examples.
+results need not match exactly, but reach same conclusion
+

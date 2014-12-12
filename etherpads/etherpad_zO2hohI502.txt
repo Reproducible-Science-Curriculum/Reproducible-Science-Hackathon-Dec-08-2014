@@ -1,0 +1,129 @@
+Breakout group 2
+Day 1 afternoon
+
+List of concepts from this morning:
+
+Data sharing, data hosting (+3)
+Scripting (+4) --automation, workflow, mastering a scripting language
+plain text - introduce people to markdown, no excel
+Robust results across platforms and Run your code elsewhere (+2)
+Keeping track of data cleaning and use commenting (+1)
+Version control (+7) - How to disseminate ??Use version control starting with data collection
+Organization and naming of files, projects (+4)
+Useful chunks of the pipeline to be re-used (+2)
+Mastering a scripting language
+Sharing code
+trying to not use a GUI
+When to modularize code (+1)
+Use version control starting with data collection
+Realizing the usefulness of reproducibility: lack of reproducibility is your problem (+1)
+Metadata (+1)
+documentation of analysis (+1)
+documentation of code: Literate programming, how & why all code
+whole project
+Raw data is raw, modify programmatically (+1)
+Failsafe -> ability to play with things without breaking
+Reproducibility does not imply same result
+Scalability challenges:
+
+Idea is to have the workshop focus on the concepts and the philosophy, rather than specific tools. Lots of materials already on the tools. 
+
+Sell is to help people in their own work. Altruism is a side benefit.
+
+Documentation important, but is going to be a hard sell.
+
+Types of documentation:
+  * why/how
+  * documentation/explanation/code
+
+Carrot vs sticks
+ * journal editors and reviewers want to see detailed methods, data, code
+ * PI wants a different version of Figure 1
+ * scalability - need to do the same thing 100 times
+
+Where is the data?  Is it safe?  Is it well structured?  Are you allowed to put the data where you want to?
+
+Explicitly state the philosophy of what we are trying to teach, with little reference to the tools and implementation.
+
+How do we deal with non-scriptable analyses?
+
+Exploration vs final analyses.
+Good research practice to document data exploration, but likely a heavy load
+
+Implementation: good, better, best options
+
+Ideas of reproducibility:
+ * Can rerun the analysis
+ * Can repurpose components from an analysis
+ * Can know about the exploratory phase of the analysis
+
+Steps towards reproducibility
+
+Being able to regenerate results.
+ * Switch from python/perl to ipython/R and the interactivity that brings naturally makes reproducibility harder by ending up with files filled with junk.
+ * Exploratory analysis leads to files with mixed analyses.
+ * Continuous integration may help
+
+Audiences
+ * Tabular data, analyses in python/R
+ * People developing new tools
+ * Career stage (grad student/PI) may matter later
+
+Version control
+ * Version control of data
+ * Version control of code
+
+Good/Better/Best
+
+Is scripting always possible?  Are nonscriptable analyses just edge cases?
+
+Moving from interactive use to automation is a difficult but important transition.
+ - current / not good: we made a tree in mrbayes
+ - good: interactive in mrbayes, but wrote down all the parameters
+ - better: writing out a set of commands
+ - best:
+ 
+Scalability
+ * good carrot for people who need to scale up
+ * may lead people with small analyses to think that they do not need to worry
+
+Why document?
+ * Notes to your future self
+
+Why use version control
+ * Documenting what you did
+ * Most useful for yourself - making things easier
+ * Shapes the hand - fix things in chunks
+ * Publishing your code
+ * Managing collaboration
+ * Makes it easier to script everything by being a safety net.
+
+Metadata
+ * where did my data come from?
+
+Idea of workshops being 
+Beginning, middle, end
+
+## General agreement on these concepts for inclusion
+
+Organize. Document. Publish.
+[good/better/best]
+ * Organization
+   * raw data folder, not manually manipulated
+   * best practices for naming files, directory structures
+   * change management of data / data provenance
+   * metadata and provenance
+   * Readme.txt files
+ * Documenting analyses
+   * scripting analysis steps
+   * scripted generation of figures and tables
+   * integrating data analysis and writeup: R / knitr, ipython notebook
+   * modularity
+   * Readme.md files
+ * Publishing data and code
+   * what goes where: data repositories, source code repositories
+   * licensing
+   * hands on use of repositories
+
+Get in, get out, get help.
+

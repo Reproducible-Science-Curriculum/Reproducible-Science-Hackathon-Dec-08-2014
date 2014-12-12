@@ -1,0 +1,60 @@
+Discussion on datasets for lessons for reproducible research
+ 
+What does a row in the dataset look like:
+
+Data characteristics
+Start as somewhat messy
+Have a clean version available
+Have code available that made the data clean 
+Be able to be partitioned into multiple files for file organization lesson
+Minimum number of variable and variable types - factor, numeric, character
+At least enough rows to make spreadsheets painful
+Raises curiosity - interesting without explicit domain knowledge
+Having year or date as a variable to look at temporal variability, a scale up possibility
+Having dates to demonstrate how to do dates and to not just have empty cells where dates are implied
+there's an analysis done already that we can reproduce 
+interesting questions to ask of the dataset
+having code that does something and students can come in and change a variable and get a new analysis
+opportunities to write new analyses as a part of the workshop for more advanced
+descriptions of how the data was collected
+descriptions of variable names
+ability to explore the data without loading it in to R
+- publicly available, even in a standard data repository 
+no license required for reuse of data CC0
+current relevance
+state of readiness for use in lessons
+broadly interesting
+illustrations of different ways that things have been published, ways of making it available
+if datasets aren't in a standard data repository, can we put it there?
+can make dataset available as an R package to R users
+needs to be a dataset that would plausibly change either over time (movies/baby names) or with collaborations/new studies (woody plants paper)
+
+Ideas
+1. movies: https://stat.duke.edu/~mc301/data/movies.Rdata (a version, one we use would be  extended)
+ * observations: each row is a movie
+ * data dictionary: https://stat.duke.edu/courses/Fall14/sta101.001/project/project2.html
+ * pros: most work already done (and interim data cleaning steps available), variety of data types, not hard to come up with interesting questions, has date fields (year and release date)
+ * cons: not necessarily interesting to everyone
+
+2. baby names: 
+https://github.com/hadley/babynames
+http://www.ssa.gov/oact/babynames/limits.html
+ * observations: each row is a name
+ * pros: easily accessible, 
+ * cons: variables are only year, name, sex, count
+
+3. Lemur data
+http://lemur.duke.edu
+http://datadryad.org/resource/doi:10.5061/dryad.fj974
+ * pros: biology-ish application / scientific gravitas on dryad as well as alternative source, lemurs are cute
+ * cons: would require new work (would not be ready by after lunch), requires domain knowledge
+
+4. Other options:
+- Look at Dryad for datasets
+- Dialect survey in the US: involves mapping, so likely too complex
+- Gapminder: ready to go as well (Jenny has documented journey from Excel spreadsheets to csv to R data package https://github.com/jennybc/gapminder )
+
+- publication data
+
+Question: Is the choice of dataset a funding consideration?
+

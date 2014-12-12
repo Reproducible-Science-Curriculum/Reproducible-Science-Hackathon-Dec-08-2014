@@ -1,0 +1,58 @@
+Reproducibility Checklist (by module)
+
+These questions derived from #rrhack session notes and the following documents:
+
+- http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285
+- http://figshare.com/articles/Reproducibility_PI_Manifesto/104539
+
+## Documentation
+
+- Is it clear where to begin? (e.g., can someone picking a project up see where to start running it)
+- can you determine which file(s) was/were used as input in a process that produced a derived file?
+- who do I cite? (code, data, etc.)
+- Is there documentation about every result?
+- have you noted the exact version of every external application used in the process?
+- For analyses that include randomness, have you noted the underlying random seed(s)?
+- Have you specified the license under which you're distributing your content, data, and code?
+- Have you noted the license(s) for others peoples' content, data, and code used in your analysis?
+- 
+
+## Sharing
+
+^^ Is the the same as the Publication section below? ^^
+
+- Are you providing public access to your scripts, runs, and results?
+- 
+
+## Organization
+
+- which is the most recent data file/code?
+- which folders can I safely delete?
+- do you keep older files/code or delete them?
+- can you find a file for a particular replicate of your research project?
+- have you stored the raw data behind each plot?
+- is your analysis output done hierarchically? (allowing others to find more detailed output underneath a summary)
+- do you run backups on all files associated with your analysis?
+- how many times has a particular file been generated in the past?
+- why was the same file generated multiple times?
+- where did a file that I didn't generate come from?
+
+## Automation
+
+- are there lots of manual data manipulation steps are there?
+- are all custom scripts under version control?
+- is your writing (content) under version control?
+-
+
+## Publication
+
+- have you archived the exact version of every external application used in your process(es)? [may be redundant, see similar question in Documentation section of checklist above)
+
+
+Questions beyond the scope of this workshop, but related to reproducibility:
+
+- Did you include a reproducibility statement or declaration at the end of your paper(s)?
+- Are textual statements connected/linked to the supporting results or data?
+- Did you archived preprints of resulting papers in a public repository?
+- Did you release the underlying code at the time of publishing a paper?
+

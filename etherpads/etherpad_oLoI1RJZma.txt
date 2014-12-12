@@ -1,0 +1,102 @@
+Group 3 Tuesday morning breakout
+
+Discussion of modularity
+    why: to give flexibility (ability to teach e.g. Mothur or Galaxy in some settings but not all)
+    why: to facilitate reuse (ability to drop in / expand in e.g. semester long course)
+    
+
+Running dataset-driven example that ties whole workshop together
+    each module should still refer to a common example/dataset to illustrate things
+    modules can be implemented w/ different languages (e.g. R, Python, etc)
+    eventually the structure should also support re-implementation with a new, possibly discipline-specific dataset
+
+Discussion of target audience
+    the person who struggles to save files in a specific place on their computer and find them again
+    vs
+    experienced people (i.e. already competent w/ a language) who can execute discrete tasks well but lack the holistic knowledge relevant to entire projects
+    ask people to change a small aspect of the graph (e.g., color on the plot), the instructions from person A should include the change so person B can make this change
+
+Meta-discussion:
+    how to pitch/organize the workshop for a diverse audience? what is the target audience?
+
+
+
+[1] Reasons for doing this -- hands-on session
+    Give use cases: rarely do you want to faithfully reproduce an exact result or figure. More about borrowing code or verifying a bold claim or get familiar w/a dataset to use for different purposes
+    Activity: starting w/ different initial states, have groups attempt to redo an analytical task and experience how that can be made hard or easier.
+        make activity have no requirement/dependency on a scripting language?
+    Activity: give data and a description of a figure; create a workflow to create the a figure from the data; exchange your instructions w/ a neighbour and see if s/he can reproduce
+    "start with data"
+    interesting / tricky point: how will students transmit their work to the partner?
+
+[2] Narration
+
+    We didn't discuss details here but feel this comes next.
+
+We eventually move into scripting ….
+
+Day 1 conclusion: Try to arrive at Markdown?, make pretty webpage to boost morale and address exhaustion … some initial success w/ literate programming we end on a high note and have delivered some "meat"
+
+Summary of day 1: good and better
+
+<skip ahead to discussion of day 2>
+
+Organization
+    "Spiral faster": Immediately present a more sophisticated example (e.g. a big scale up of their activity 1, more files or more observations) where lack of organization is clearly a problem
+    Provide the day 1 "activity" work in some idealized, expanded form?
+    
+    How to use activity 1 to motivate organization:
+    Survey for where how students organized their work re: activity 1
+    Did anyone create a directory for that?
+    Did anyone edit the data file, e.g. transpose rows vs columns or add column headers?
+    How did the above, in your partner's work, help/hinder your ability to understand and replay their work?
+    How did you share your files? (usb, email, dropbox, etc...) introduction to best practice in data sharing
+    
+Automation
+    implementing the idea of Make but perhaps w/o using Make (Drake, nextflow, SnakeMake, Scons, etc)
+    https://github.com/Factual/drake
+    http://www.nextflow.io
+    Snakemake -- https://bitbucket.org/johanneskoester/snakemake/wiki/Home
+    Scons -- http://www.scons.org (more compilation oriented then the three above)
+    
+Publishing
+
+Summary of day 2: best and publishing
+
+
+
+Pat's notes for presentation:
+A lot of discussion about
+* modularity vs. spiraling w/ good-better-best
+* meat vs. constructivism
+* Common dataset that we develop over the course of workshop
+* different levels of people coming in
+===>>>> Make workshop reproducible (datasets, experience levels)
+
+
+Further tools that we need...
+* something make like, but not make
+
+
+Day 1: (bad)->Good->Better (cycling)
+1. Intro activity with a data set and a task each person comes up with their own workflow and then shares with someone else and the other person has to reproduce - would bring up a lot of interesting issues
+* varying levels of expertise
+* data sharing
+* scalability
+* etc
+
+2. Move into talking about documentation - end day 1 with people walking away with the initial dataset in a Rmd file
+* pseudocode as a form of documentation
+* introduce scripting by showing a well done script
+* some initial success w/ literate programming we end on a high note and have delivered some "meat"
+
+
+Day 2: Better->Best (modular; more sophisticated examples)
+
+* make -> teach organization; teach `make clean; make` concept
+* version control
+* ???
+* not all groups might make it through all of the modules based on the expertise of the learners
+
+#. End with publishing as a way to wrap up workshop
+

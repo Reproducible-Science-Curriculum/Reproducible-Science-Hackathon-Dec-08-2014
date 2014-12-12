@@ -1,0 +1,31 @@
+#Splitting into Modules and Lessons
+
+##Mission Statement: 
+
+To train researchers in the best practices of reproducible computation to increase transparency and accelerate scientific progress.
+
+Tagline: Accelerating scientific progress through reproducible science. 
+
+## Learning objectives:
+
+At the end of the course, students will be able to
+* Appreciate the importance of making research more reproducible.
+* blah blah the organization of digital artifacts of computation
+* blah blah the documentation of the how and the why of computational analysis
+* blah blah the importance of  
+* Choose and evaluate tools, technologies, and formats that promote the reproducibility of their computational work.  
+* blah blah making one's computational work and results discoverable, accessible and reusable  by others
+
+##Links
+
+Bloom's taxonomy allowed verbs
+http://www.clemson.edu/assessment/assessmentpractices/referencematerials/documents/Blooms%20Taxonomy%20Action%20Verbs.pdf
+
+Mindmap: https://coggle.it/diagram/548607a4d215ff3b06948849/0353189d659223de746d754b8d10bca50186a23b2c5bc183a7e195ea4efa2944
+
+concerete materials to be produced (i think?):
+- checklist/survey for "how reproducible are you?" for pre and post survey and flyer
+- curated list of resources for where to get started, e.g. codeschool, etc.
+- overall walk-away lessons: X things you want to remember even if you slept through the whole thing
+- (maybe) folder structure
+

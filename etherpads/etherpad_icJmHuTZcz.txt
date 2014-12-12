@@ -1,0 +1,57 @@
+At the beginning of this workshop, participants should be able to 
+ * to use a spreadsheet program to generate a plot
+ * to use word to communicate
+
+At the end of this session, students will be able to... 
+...recognize the problems related to reproducible research
+ * organization
+ * documentation
+ * automation
+ * data/documentation sharing
+... identify pain points in getting their analysis to be reproducible
+
+
+
+Preconceived ideas
+ * They don't have a problem
+ * Discussion with organization group
+   * Projects aren't big enough for a folder structure
+   * I am storing images.  I am not doing computation
+   * Difference in binary vs. text flies
+ * Discussion with publishing group
+   * sharing, archival, and publication are non-synonymous
+   * publication is not all-or-nothing that comes solely at the end, but is stepwise
+ * Discussion with narration group
+   * I will remember what I did/what may really non-descriptive column names and codes mean
+ * Discussion with versioning group
+   * ???
+
+
+
+Itinerary (180 min)
+ * get settled/Intro junk (10 min)
+ * introduce case study (Amgen example?) and relate students pain points to real-world pain points from case study (10 min)
+ * Loop 1 (75 min)
+   * everyone is given a common dataset - half the group gets one question or task and the other half gets a separate question (30 min)
+   * swap with person from different group and follow their instructions (20 min)
+   * Time to talk with partner
+     * make note of the problems or pain points associated with trying to follow another persons workflow
+
+ * <Coffee Break> (15 min)
+
+   * Time to talk with bigger group
+     * Decompress with salient points from the exercise
+     * Collect data on what people were actually using as tools for the two loops - pre-asssessment
+
+ * Loop 2 (75 min)
+   * organization
+     * New data in different format (column order, number, names)
+   * automation
+     * Generate same plot as before with added data and tweak to deliverable
+   * Dealing with feedback -> have updated documentation
+   * Decompress (faster this time around)
+     * Talking w/ partner
+     * Talking w/ group
+ * Summary of morning and point forward (10 min)
+   * point towards the tools that we'll be getting to over the next two days to solve these problems
+

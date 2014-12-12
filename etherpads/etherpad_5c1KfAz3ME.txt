@@ -1,0 +1,55 @@
+Distribution logistics
+
+# Jobs:
+
+* Common taxonomy (master master, us/them, different repos etc)
+* Set up proof of concept for travis lesson checking
+* Documentation for rrhack organisers, bootcamp organisers, students
+
+# Travis
+
+Travis for R.  This is the repo that has code
+https://github.com/craigcitro/r-travis
+This is the recipes, which is super useful for designing new configurations.
+https://github.com/craigcitro/r-travis/wiki/Recipes
+
+Here is the configuration file for a knitr document
+https://github.com/csgillespie/travis-examples/blob/knitr/.travis.yml
+
+The one missing bit is that we really don't want a DESCRIPTION file in the repo, because it's very prominently named and will confuse the students.  But I think we can solve this with a .description file that travis will rename.
+
+Builds will be listed here:
+https://travis-ci.org/Reproducible-Science-Curriculum/rr-logistics/ (travis: unix build)
+https://ci.appveyor.com/project/richfitz/rr-logistics (appveyor: windows build)
+(travis has a long queue at the moment)
+
+Code for buttons:
+[![Build Status](https://travis-ci.org/Reproducible-Science-Curriculum/rr-logistics.svg?branch=master)](https://travis-ci.org/Reproducible-Science-Curriculum/rr-logistics)
+[![Build status](https://ci.appveyor.com/api/projects/status/570yfu7cflc3st2j?svg=true)](https://ci.appveyor.com/project/richfitz/rr-logistics)
+
+This is quite likely to change in a little bit, but it will only get simpler and the current solution should work for a while
+https://twitter.com/GaborCsardi/status/542712472155983873
+
+# Ideas for things to test
+
+* Does a knitr document compile?
+* Does a derived data set match the master data set? (This is relevant for org1 vs org2)
+* Is a directory of figures set up?
+* Pull request example: https://github.com/Reproducible-Science-Curriculum/rr-logistics/pull/2 - left off a closing backtick
+
+# Unresolved
+
+* It would be nice if Rscript could run in verbose mode (done)
+* Need to run travis over every subdirectory on the combined repo. (done)
+* Will need to manually enable travis on the new combined repo (not sure this is doable via api, but is not *that* big a deal)
+* Run each script with `try`, and throw at the end if any failed.  This will pick up more errors.
+* Skip a directory if .ci_tests.R is not present
+* Make sure that the system calls actually fail - intern=TRUE might be enough.
+* Get links to the website running from each repo
+* Build a table of contents for the metarepo home page
+
+# Instructor materials - gh-pages
+index.md file
+http://reproducible-science-cirriculum.github.io/rr-logistics
+
+

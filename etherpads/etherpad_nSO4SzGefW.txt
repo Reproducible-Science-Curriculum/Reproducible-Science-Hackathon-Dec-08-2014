@@ -1,0 +1,32 @@
+# Summary of Day 2 morning breakouts
+ 
+## Group 1
+https://etherpad.mozilla.org/RsVqAuHbxM 
+ * start with exercises, testimonials, checklist / rubric
+ * organization: guided example of untidy project -> tidy project
+ * publish: small groups to discuss risks of being open
+ * general themes: avoid evangelism
+ * mixed feelings about teaching git and github
+
+## Group 2
+https://etherpad.mozilla.org/RI95QSaZvB
+ * checklist: have people fill out before workshop
+ * start with exercise of reproducing something short 
+ * organization: exercise organizing sets of files, followed by an introduction to a well-organized example; provide template
+ * narration: 1. non-executable doc; 2. basic scripting; 3. literate programming (demo)
+ * themes: showing examples of scripting without actually teaching scripting; possible split of class at some point between scripting / version control
+ * publication: create best practices for licensing; need to discuss at start of project (with collaborators, funders, institution)
+
+## Group 3
+https://etherpad.mozilla.org/oLoI1RJZma
+ * starting exercise: give everyone a dataset and tell them to make a figure, have to pass to second participant to reproduce -> generate teachable moments
+ * get to literate programming by end of day 1 (RMD?); walk though existing and make small change rather than start from scratch
+ * day 2: moving from better to best; make-like things
+ * end with publication
+ * themes: spiraling through concepts vs separate modules (organization / documentation / publication); use common dataset through workshop or substitute with different dataset ("the workshop is reproducible!")
+
+Gaps:
+ * Common executable convention for how to organize and structure a project from the start. 
+ * Something like make, but not make.
+ * Checklist for reproducibility
+

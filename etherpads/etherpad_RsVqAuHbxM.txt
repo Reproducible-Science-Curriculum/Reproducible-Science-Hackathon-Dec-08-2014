@@ -1,0 +1,76 @@
+Group 1
+
+Ecosystems:
+
+Start with exercise.
+
+Don't get in to Evangelism wars pick what people around you are doing
+
+Reasons
+- exercises
+- testimonials / why are you here?
+- list of questions
+- run through a checklist; a list of questions to ask people
+    possibly a good/better/best list
+    concept based list, no reference to a particular tool chain
+    organize list with Organize. Document. Publish.
+    could use the list as we go through the workshop e.g. this section we're teaching will address questions 6-10
+    
+ - an admission that it will be difficult, or you won't probably have done everything
+    you won't reach 100%; each project should be better than the last one
+
+Checklist - also a rubric?
+organize list 
+
+Plot of time versus 
+https://github.com/tracykteal/shell-genomics/blob/master/img/gvng.jpg
+what is in that space between the linear increase and the leveling off
+
+Idea for unconference topic:
+- organization of analysis files and paths that you don't end up using
+The process of a project is not a line with a bunch of nodes, but a bush with a lot of dead branches
+- data sharing
+There are a lot of different resources for data sharing. What is the space and what are pros, cons, limitations of each, Docker, Amazon Glacier, institutional - library
+  input from librarians; conceptual data lifecycle
+- badges
+having completion badges and accomplishment badges
+- how to / if to teach github
+need for a layer on top of github to make it more accessible or work with scientific project workflows?
+
+Organization
+Bill Noble's paper to read before workshop
+Guided example based presentation from instructor
+  There are key concepts and the instructor is going to go through the example demonstrating
+  the implementation of these key concepts
+Example of an untidy project
+Everyone has it and then work together or on your own to tidy it up
+Get back together and discuss what you've done and why
+Have 15 minutes to work on tidying your own data
+Get in to pairs, explain what you did and see if questions came up or ask for feedback
+Deprecation of code, data and tools.
+Backups!
+nicercode.github.io/blog/2013-04-05-projects/
+
+Publish
+Break up in to groups and talk about the value and risks of being open
+
+Artifacts - figures, graphs
+intermediate data?
+Data sharing - Dryad, FigShare, iPlant, SRA, MGRAST, github
+Software sharing - github
+Versioning
+Metadata archiving
+Data archiving
+(differences between sharing and archiving)
+Analysis sharing
+Software licenses
+Data restrictions
+HIPAA - human subjects
+self generating tutorial
+
+
+github
+
+
+
+

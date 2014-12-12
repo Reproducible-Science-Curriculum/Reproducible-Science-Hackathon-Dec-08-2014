@@ -1,0 +1,205 @@
+rr-multifile README.md
+
+Purpose: To teach students to VERB [and VERB] the way that organization can be used to inform themselves and others about the project throughout its life
+
+Motivation
+Why is it worth organizing?
+Graph. Yes, this is a little painful, but think of how painful it will be during publication process. 
+Automation is made easier with good organization. 
+
+- adding a new analysis
+- if you have a ton of output files if it goes where it is supposed to go you don't have to spend time organizing. 
+- 
+
+Overview of exercises:
+- get a bunch of files (raw data, scripts, overall .Rmd): run the whole thing to produce clean data and output files
+- now have a bunch of files (raw and clean data, scripts, results); how to organize them?
+    - README file explaining everything
+    - organize into subfolders (separating code from data)
+- Potentially: have them actively reorganize and change paths
+- get a version with files reorganized; add some new analysis to the main Rmd file
+- (Lecture interlude: 
+      - what we had to change (paths) to redirect files
+      - importance of absolute vs relative paths
+      - what if you were to move this to a new computer?)
+- metadata exercise: what metadata will you want to record in order to explain what files are what, and which ones produce which others
+      - for yourself, coming back to this 6 months from now
+      - for a collaborator
+- versions: how do they keep track of versions of things? (discussion in small groups and then come back together)
+  Discussion of 3 main options:
+      - periodic zipping of project directory
+      - Time Machine or other backup system
+      - project on dropbox
+      - github
+- (Lecture interlude: demonstration of GitHub)      
+
+
+Versioning
+Introduction:
+Diagram out. Research is not linear. Everyone agrees that exploratory research 
+is not linear.  What happens when you want to try something new? You did something wrong? You would want to go back in time.  
+
+Discussion: How do you do it? 
+
+Strategies: Time machine, dropbox, zipping everything, 
+
+Formal version tracking 
+Github demonstration. 
+
+Better
+If you have the data filename have the date, your code stops working
+Put the data and version in the directory.  Metadata.
+
+Best
+Formal version tracking 
+Github demonstration. 
+
+Price: learning curve for git.
+
+
+Starting point: In the previous lesson, we will use knitr to generate two things:
+
+starting point:
+proj/
+  bunch of files, including study.Rmd
+  
+* one simple script read.csv, str(), plot()
+* another one with some documentation for the data set: read.csv(),  str(), head(), summary(), etc.  
+
+## Organization exercise 
+
+Purpose: To teach students to VERB directory organization structures and naming conventions that distinguish files by type and importance, and capture life history events in the progress of their project
+
+Give students the raw data and scripts from the Gapminder data: R scripts 1-7 and tsv files 1-7
+https://github.com/jennybc/gapminder/tree/master/data-raw
+
+In small groups students organize them into subdirectories
+Discussion of why they chose their particular scheme
+Move students towards modified version of the scheme in Bill Nobel's paper, represented in this github repo: 
+
+https://github.com/Reproducible-Science-Curriculum/rr-init
+
+doc/
+    paper/
+data/
+    raw/
+    clean/
+code/
+scratch/
+results/
+    figs/    Figures generated from code
+    pics/   Other types of images (e.g hand-drawn illustrations)
+README
+project.Rmd
+project.Rproj
+
+No one "best" structure but common themes that cut across different structures
+ - raw data remain raw
+ - separation of file types (raw data, results, code, documentation)
+ - metadata with each directory (a readme within each?)
+ - be aware of what may be deleted (by file extension, directory, etc)
+ - informative names
+ - timedate stamps for directory names to illustrate when files within them were generated
+ - common structure across your own projects (don't reinvent your wheels continually)
+
+NOTES: talk about working directories, absolute and relative
+
+Start:
+Run the markdown. 
+.Rmd data
+With two kinds of output: clean and plot.
+
+Activity
+1. Organize old directory (move data into separate folder)
+2. Re-run analysis: doesn't work
+3. How do you fix it
+    -  absolute vs relative paths / working directory
+    - what can you do to make sure you have a working executable directory available while you break/fix things in this directory?
+4. Now we need to add another analysis
+5. What is the protocol for starting a new analysis
+    -  document analysis change readme.md
+    -  understand where the outputs should be 
+    -  how we got them in the right places 
+    -  absolute vs relative paths / working directory
+    -  If you gave to friend how do those path names affect that?
+    - How long will it take for you to figure your analysis 6 months from now?
+
+
+
+## Discussion of Paths
+
+Have students replace the directory from the previous exercise with a consistently-organized version that we provide. It contains the same files with same names as the previous exercise.
+
+Present what was changed
+- paths of files within .R/.Rmd files (according to file reorganization)
+- getting RStudio to redirect output files
+
+Discussion of absolute vs relative paths
+- If you hand the directory to someone else, will they have to edit paths?
+
+## Metadata exercise
+
+Purpose: To teach students to VERB the use of README and other files to capture important information about the digital artifacts within the project directory that are not captured by the directory organization and naming conventions alone.
+
+Working in small groups, students work out what information is needed to document the set of files constructed in the previous exercise. How would one know what is what, and what files were generated from what other files?
+
+Questions to motivate need for metadata: 
+- Where do I start?
+- Which is most recent?
+- Who do I cite for this?
+- Which folders and files can I safely delete?
+
+Try to motivate metadata by getting the students to try to work out what is in the repo that we provide.
+- some students will run things immediately without checking - that seems a plus
+- emphasise that the project they are looking at could be one given to them from someone else, or one of their own that they have not looked at for a long time
+
+## Analysis exercise
+
+Purpose: Introduce students to ways that analyses can use the directory structure and organization intelligently.  Then illustrate how running analyses generates more files & more complexity, grapple with managing this dynamically as a project evolves. (Specifics: specifying input & output paths, ... )
+
+*** introduce working directory concept
+
+Attempt to re-run the (same?) analysis in the new directory structure = mess!
+Adjust paths and re-run
+- Discussion of relative vs absolute paths (here?)
+
+Ends with discussion of version control:
+ - "poor man's" version control, of zip up the whole project directory with a version number
+-  illustrate how Github captures much of the temporal metadata; advantages = determining what's changed, uses less disk space, more rapid switch between prevous states
+
+
+
+## Logistical problems (based on yesterday's discussions)
+
+- how do we get students a set of files to modify?
+- after everyone has moved files all over the show, how do we get people onto a common page?
+- how many files is enough to illustrate the problem without being overwhelming?
+
+## Other notes from the board
+
+### Problems that motivate metadata/organization
+ - start where?  README
+ - which is most recent?  (dating, versioning)
+ - who do I cite?
+ - how many times has a particular file been generated in the past?
+ - why was the same file generated multiple times?
+ - where did a file that I didn't generate come from?
+ - which folders (or types of files) can I safely delete (automation?)
+
+How does this evolve? How do I maintain it? (rel file paths, etc)
+Redirect results of knitr?
+
+README.md
+  - goals
+  - outline for lesson
+
+Instructor_notes.md
+ - narrative
+ 
+slides.md
+exercies(.md or directories)
+resources(.md, or inside README.md, or directory)
+data/
+checklist
+
+

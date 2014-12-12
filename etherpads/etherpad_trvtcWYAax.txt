@@ -1,0 +1,143 @@
+ * over time, fewer stats
+Reproducible Research Hackathon 
+#rrhack
+
+https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014
+ 
+# Reproducible Science Curriculum Workshop
+
+Goal: 
+Develop workshop to enable people to go teach about doing reproducible
+research
+* teachable, modular curriculum
+  * designed as a short-course
+  * adaptable to tutorial or semester-long
+* instructors willing to teach
+* goal to have a follow-up workshop where we teach the workshop
+
+Goals in scope:
+* core curriculum components
+* pedagogic guidelines
+* documentation of tools/approaches
+* polishing/wrapping tools
+* hiding/containing technology soup
+* how do you know that you need this training
+-> Address the gaps that get in the way
+
+Goals not in scope:
+* developing new tools
+* specialized curriculum components
+* paper about reproducible science (but maybe eventually about process)
+* tools/approaches for bench science (we're focused on computational science)
+* anything that others cannot reuse without restrictions
+
+Meta goals
+* take responsibility - get involved
+* make this workshop work for you
+
+
+##Rich and Matt - Reproducibility is hard!
+
+ * Tools Used for their study: Git, Make, Travis-CI, knitr, packrat
+ * 100% reproducible is extremely hard, but partial reproducibility goes a long way. 
+ * "Partially reproducibility: Good Faith effort at documenting requirements makes it much easier to pick up "
+
+blog post about process: http://ropensci.org/blog/2014/06/09/reproducibility/ 
+
+##Karl
+
+ * Teaches a course that acts as a scaffold to older curriculum, that is continually being taught that does not cover reproducibility topics. 
+ * Worked: Students were very receptive to adoption of tools
+ * Didn't work
+    - Low class recruitment. 
+    - Wanted more hands on, but ended up being very lecture-driven; might flip for next iteration
+
+Open course material: http://kbroman.org/Tools4RR/
+
+##Mine
+ * teach workflows to people who don't yet have a workflow (before students even start doing research)
+ * data analysis and write-up usually happen in different environments; teach an integrated environment (R, RStudio, knitr)
+ * How do you reproduce point-and-click analyses?
+ * using Docker to standardize environments is incredibly helpful; reduces frustration
+ * Overarching theme for teaching: Keep frustration to a minimum.
+ * Reproducible science leads to better science AND better teaching.
+ * https://www.coursera.org/course/statistics : MOOC
+ * would be cool to develop a tie in to github to foster collaboration
+
+##Jenny
+ * graduate stats course in exploratory data analysis that incorporates reproducibility
+ * over time, fewer stats students and more students from other departments
+ * http://stat545-ubc.github.io/ : course info
+ * would love to co-teach in python
+ * did entire course on github (push to github, review fellow students work, make issues for review)
+ * reproducibilty is a by-product of how she is teaching rather than an explicit focus
+
+
+##List of concepts
+
+Data sharing, data hosting (+3)
+Scripting (+4) --automation, workflow, mastering a scripting language
+plain text - introduce people to markdown, no excel
+Robust results across platforms and Run your code elsewhere (+2)
+Keeping track of data cleaning and use commenting (+1)
+Version control (+7) - How to disseminate ??Use version control starting with data collection
+Organization and naming of files, projects (+4)
+Useful chunks of the pipeline to be re-used (+2)
+Mastering a scripting language
+Sharing code
+trying to not use a GUI
+When to modularize code (+1)
+Use version control starting with data collection
+Realizing the usefulness of reproducibility: lack of reproducibility is your problem (+1)
+Metadata (+1)
+documentation of analysis (+1)
+documentation of code: Literate programming, how & why all code
+whole project
+Raw data is raw, modify programmatically (+1)
+Failsafe -> ability to play with things without breaking
+Reproducibility does not imply same result
+Scalability challenges: 
+
+
+##Comments from introductions and Conversations:
+
+Karl Broman - the organization of the entire project is a function of the least organized component
+Naupaka Zimmerman - give yourself a way to fail safely; play safe/sandbox
+Dave Clemens - Reproducibility is a love note to your future self
+
+Paul - There is separation between software dependencies (Installation ect) and practices of reproducibility 
+
+Lessons learned from trying to reproduce papers/studies:  The point is not to reproduce 100%, but learn to create the reproducibility as a mindset.
+
+"Focus on baby steps."  Karl
+
+"Slow science movement" 
+
+Work to get progressively better. Our own papers from 1999 might not be reproducible, but we're working to be better for the next one. - Karl Broman
+
+Paper from Phil Bourne on trying to reproduce his own research
+Quantifying Reproducibility in Computational Biology: The Case of the Tuberculosis Drugome
+Garijo et al
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0080278
+
+A quick guide to organizing computational biology projects
+W. Noble
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1000424
+
+
+
+
+# Licensing
+
+* CC0 is not counted as an open source licence: http://opensource.org/faq#cc-zero
+
+Ciera: Teaching materials might blow your mind, so maybe we need a license that will protect us if someone is harmed.
+
+Unanimous agreement about CC0! 
+
+Group 2:
+https://etherpad.mozilla.org/zO2hohI502
+
+
+
+

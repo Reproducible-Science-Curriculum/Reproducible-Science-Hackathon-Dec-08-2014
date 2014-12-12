@@ -1,0 +1,12 @@
+Points to be aware of:
+
+Organization1 rstudio part maybe earlier?
+Organization1 needs to give a folder that is around what we will send to Organization2 
+
+What is the code that we are knitting?
+Organization - Working directory concepts
+Describe the data set or refactor - > go to Jenny.
+
+Motivation:  Make sure you weigh and convey that this makes their life easier 
+This is scaling science!  Bigger, harder, and faster science. You leave with the ability to ask more interesting questions about your data.
+

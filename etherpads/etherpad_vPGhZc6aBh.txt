@@ -1,0 +1,69 @@
+#Group 3 
+
+- Discipline agnostic: yes
+- Tool agnostic: at first, yes
+- aim for 4 slots of 1.5 hours each day, 2 day workshop
+- If topics depend on each other, try to group together
+- Think of maybe having an underling theme, like use the same dataset
+
+##Most important tracking
+1. Set the objectives (show the benefits?) of why reproducibility matters. The pitch.
+2. Organization - folder structure, file naming/conventions, documentation, set ideal standards for a group (THEME), license … Slow down and plan
+3. (Raw?) data, Metadata
+   * commons fields across domains (raw data, checksum, etc)
+   * data provenance
+ * Version Tracking - As a concept outside of tools and in the context of collaboration, possibly with future you.
+   * code: what version control was built for, concept of a diff, git a relevant tool
+   * data: fit w/ version control and current mature tools is uneven, often fine but sometimes 
+4. Mastering scripting, modify programmatically 
+   * … sets you up for building Workflows, automation, 
+5. Literate Programming Beauty of markdown / plain text / literate programming
+6. Workflows & Automation
+7. Platform issues: Nitty Gritty across time and space
+   * run your code somewhere else
+   * managing dependencies 
+   * robust across platforms
+   * scalability challenges
+8. Public Sharing - Does not necessarily mean sharing to everyone at all time.  But keeping it set up as though the end goal it will be public, which is an optional final step.
+   * Implementation of sharing code and data.
+   * licenses 
+
+Themes:
+ * Baby Steps - Googling errors
+ * Slow down
+ * Failsafe -> ability to play with things with out breaking.
+ * Collaboration
+ * Embedded documentation & commenting (baby step: README)  
+ * Scale
+ * Abstraction
+
+Products:
+Create a checklist of learning concepts and a way to judge either your own project or someone else.
+a baby step for each unit
+
+
+##Topics
+
+Data sharing, data hosting (+3)
+Scripting (+4) --automation, workflow, mastering a scripting language
+plain text - introduce people to markdown, no excel
+Robust results across platforms and Run your code elsewhere (+2)
+Keeping track of data cleaning and use commenting (+1)
+Version control (+7) - How to disseminate ??Use version control starting with data collection
+Organization and naming of files, projects (+4)
+Useful chunks of the pipeline to be re-used (+2)
+Mastering a scripting language
+Sharing code
+trying to not use a GUI
+When to modularize code (+1)
+Use version control starting with data collection
+Realizing the usefulness of reproducibility: lack of reproducibility is your problem (+1)
+Metadata (+1)
+documentation of analysis (+1)
+documentation of code: Literate programming, how & why all code
+whole project
+Raw data is raw, modify programmatically (+1)
+Failsafe -> ability to play with things without breaking
+Reproducibility does not imply same result
+Scalability challenges: 
+
