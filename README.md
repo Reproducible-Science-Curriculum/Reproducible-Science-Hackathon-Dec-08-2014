@@ -4,7 +4,7 @@ This is the first of three workshops that will bring together a community of ind
 
 **Date**: December 08, 2014
 
-**Location**: NESCent 
+**Location**: [NESCent](http://nescent.org) 
 
 **Goal**: To develop an open source curriculum for a two-day workshop on reproducibility with an emphasis on modularity for incorporation and dissemination in multiple formats. 
 
