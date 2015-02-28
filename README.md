@@ -1,6 +1,6 @@
 Reproducible Science Hackathon: Curriculum & Workflow Development
 =============================================
-This is the first of three workshops that will bring together a community of individuals interested in developing curriculum, workflows, and tools to strengthen  reproducibility  in research.
+This is the first of three workshops that will bring together a community of individuals interested in developing curriculum, workflows, and tools to strengthen  reproducibility  in research. See the original [Call for Participation](Call-for-participation.md) for further details.
 
 **Date**: December 08, 2014
 
